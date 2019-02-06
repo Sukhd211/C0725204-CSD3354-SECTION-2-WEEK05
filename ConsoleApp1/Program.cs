@@ -10,6 +10,23 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            MethodA();
+        }
+        public static void MethodA()
+        {
+            while (peanut())
+            {
+                Console.WriteLine("Help ! i am stuck in an infinite loop!");
+            }
+
+
+        }
+
+        public static bool peanut()
+        {
+            return true;
         }
     }
+
+
 }
